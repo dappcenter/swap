@@ -22,7 +22,7 @@ export const DECIMALS = 'decimals'
 export const EXCHANGE_ADDRESS = 'exchangeAddress'
 
 const synthWhitelist = ['sUSD', 'sTRX']
-const otherTokensWhitelist = ['USDJ', 'JST', 'FRAG']
+const otherTokensWhitelist = ['USDJ', 'JST', 'TEWKEN', 'FRAG']
 
 const exchangeWhitelist = [...synthWhitelist, ...otherTokensWhitelist]
 const buildTokens = addrs => {
